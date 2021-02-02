@@ -1,0 +1,64 @@
+html {
+  background-color: black;
+}
+
+#wrapper {
+  height: 644px;
+  width: 446px;
+  margin-top: 50px;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#display {
+  margin: 2px;
+  margin-top: 4px;
+  height: 100px;
+  width: 412px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+}
+
+#math-log {
+  font-size: 25px;
+}
+
+#output {
+  font-size: 50px;
+}
+
+#number-grid {
+  margin: auto;
+  width: 416px;
+  font-size: 0px;
+}
+
+#button-backspace {
+  width: 204px;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  font-size: xx-large;
+  margin: 2px;
+  background-color: grey;
+  border: 0;
+  border-radius: 10px;
+}
+
+.number {
+  background-color: white;
+}
+
+#button-decimal {
+  background-color: white;
+}
+
+#button-clear {
+  background-color: orange;
+}
